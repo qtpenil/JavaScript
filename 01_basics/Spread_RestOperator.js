@@ -1,5 +1,5 @@
 /**
- Spread in JavaScrip
+ **************************************  Spread in JavaScrip  **************************************
 
  Spread (...) means : Take something that is grouped (array / object) and open it into individual values.
 
@@ -93,10 +93,10 @@ z = undefined
 
 Result: 5 + 10 + undefined = NaN ❌
 
- */
+*/
 
 
-// Rest Operator
+// *********************************  Rest Operator  ***************************************
 
 /**
  Rest operator means:
