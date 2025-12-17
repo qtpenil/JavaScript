@@ -21,11 +21,11 @@ Many bugs come from coercion & scope
 JS treats functions as first-class citizens.
 Topics:
 
-Function declaration vs expression ✅
-Arrow functions
-Default parameters
-Higher-order functions
-Callback functions
+Function declaration vs expression  ✅
+Arrow functions   ✅
+Default parameters   ✅
+Higher-order functions ✅
+Callback functions   ✅
 
 🔑 Used everywhere in:
 
@@ -38,10 +38,10 @@ React components
 This is INTERVIEW GOLD.
 Concepts:
 
-Global / Function / Block scope
-Lexical scope
-Closures
-Hoisting behavior
+Global / Function / Block scope  ✅
+Lexical scope   ✅
+Closures   ✅
+Hoisting behavior   ✅
 
 🔑 Why important:
 
@@ -55,8 +55,8 @@ Async behavior
 JS OOP ≠ Java OOP.
 Learn:
 
-Object creation
-this keyword
+Object creation    ✅
+this keyword   ✅ (confusing)
 Prototypes
 Prototype chain
 call, apply, bind

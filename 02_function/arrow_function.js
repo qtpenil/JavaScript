@@ -95,3 +95,33 @@ They inherit this from parent
 | Best use            | General logic   | Callbacks, React |
 
  */
+
+
+// ***************************** default prameter ********************************
+
+// A default parameter allows you to give a 
+// function parameter a default value if no argument (or undefined) is passed.
+
+function greet(name = "Guest") {
+  console.log(`Hello, ${name}`);
+}
+// Only applies when value is undefined.
+
+greet("Penil");   // Hello, Penil
+greet();          // Hello, Guest
+greet(0);   
+// If name is missing or undefined, JS uses "Guest".
+
+
+// Old Way (Before ES6)
+function greet1(name) {
+  name = name || "Guest";
+  console.log(name);
+}
+greet1("");   // Guest 
+greet1(0);    // Guest 
+
+/**
+ Default parameters allow functions to initialize parameters with default values 
+ when arguments are missing or undefined, making functions safer and cleaner.
+ */
