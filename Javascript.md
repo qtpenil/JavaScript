@@ -87,10 +87,10 @@ Cleaner logic
 This is where JS shines and confuses people.
 Concepts:
 
-Event loop
-Call stack
+Event loop   
+Call stack    ✅
 Microtasks vs macrotasks
-setTimeout
+setTimeout 
 Promises
 async / await
 Error handling in async
